@@ -1,0 +1,15 @@
+# Ignorar carpetas de datos de MongoDB y PostgreSQL
+mongo/
+postgres/
+
+# Ignorar Docker data en caso de que uses volúmenes bind
+**/data/
+**/global/
+**/journal/
+
+# Archivos comunes
+node_modules/
+.env
+dist/
+build/
+*.log
